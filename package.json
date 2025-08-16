@@ -1,0 +1,33 @@
+{
+  "name": "tw-mini-app",
+  "version": "1.0.0",
+  "description": "A modern React + TypeScript mini-application for Warzone tournaments",
+  "private": true,
+  "workspaces": [
+    "warzone-tournaments-miniapp/apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "lint": "npm run lint --workspace=frontend",
+    "preview": "npm run preview --workspace=frontend"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WA11AX/TW-Mini-App.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "warzone",
+    "tournaments"
+  ],
+  "author": "WA11AX",
+  "license": "MIT"
+}
